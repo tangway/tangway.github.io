@@ -1,5 +1,5 @@
 ---
-title: Why is express.json() needed and where could the request data be?
+title: Why is express.json() needed and where could the request data be without it?
 date: 2023-11-26 16:12:00 +0800
 categories: [nodejs]
 tags: [nodejs]     # TAG names should always be lowercase
