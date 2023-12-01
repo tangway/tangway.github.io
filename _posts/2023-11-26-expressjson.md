@@ -1,8 +1,8 @@
 ---
 title: Why is express.json() needed and where could the request data be without it?
 date: 2023-11-26 16:12:00 +0800
-categories: [nodejs]
-tags: [nodejs]     # TAG names should always be lowercase
+categories: [expressjs, nodejs, javscript]
+tags: [expressjs, nodejs, javascript]     # TAG names should always be lowercase
 mermaid: true
 ---
 Given an ExpressJS application with a POST route:
@@ -19,6 +19,7 @@ app.post('/api/notes', (req, resp) => {
   resp.json(note)
 })
 ```
+{: .nolineno }
 
 and a POST request:
 
@@ -31,6 +32,7 @@ content-type: application/json
     "number": "4444-4444"
 }
 ```
+{: .nolineno }
 
 <br>
 What happens when we don't use `app.use(express.json())`?
@@ -82,6 +84,7 @@ app.post("/api/persons", (req, res) => {
   });
 });
 ```
+{: .nolineno }
 
 First we run `console.dir(req.body)` so we can see that there is no object there and that it is currently `undefined`.
 Then we initialize `rawData` so that the data chunks will be dumped in there. 
