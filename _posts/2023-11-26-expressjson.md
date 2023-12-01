@@ -56,7 +56,7 @@ To better understand this function it helps to see what happens when you don't u
 
 ## So why is it needed for POST requests and not for GET and DELETE requests?
 
-GET and DELETE send data as url parameters or as query strings so they can be accessed directly in the request object using req.params or req.query. Whereas POST, PUT and PATCH send raw data in the stream of the request object.
+GET and DELETE send data as url parameters or as query strings so they can be accessed directly in the request object using `req.params` or `req.query`. Whereas POST, PUT and PATCH send raw data in the stream of the request object.
 
 But where is this raw data in the request object? If you use `console.dir(req, {depth: null})` to unnest all the properties of the request object into 2700+ lines you would not find it.
 
