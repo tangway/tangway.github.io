@@ -90,7 +90,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: tangway/tangway.githhub.io # <gh-username>/<repo>
+    repo: tangway/tangway.github.io # <gh-username>/<repo>
     repo_id: R_kgDOKwr9lg
     category: Announcements
     category_id: DIC_kwDOKwr9ls4Cba8Q
