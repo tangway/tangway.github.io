@@ -1,7 +1,7 @@
 #  The contact options.
-- type: github
-  icon: 'fab fa-github'
-  url:  'https://github.com/tangway'
+# - type: github
+#   icon: 'fab fa-github'
+#   url:  'https://github.com/tangway'
 
 - type: linkedin
   icon: 'fab fa-linkedin'   
